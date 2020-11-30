@@ -1,0 +1,27 @@
+h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 4.5em;
+    -webkit-text-stroke: 2px #06065c;
+    
+
+}
+
+body{
+    background-image: url(../../../assets/images/home-office.jpg);
+}
+
+.titulo{
+    height: 8em;
+    color: white;
+    margin-top: 3em;
+   
+}
+
+.misProyectos{
+    background-color: rgb(53, 45, 45);
+    opacity: 0.9;
+    height: 100%;
+    color: white;
+
+}

@@ -1,0 +1,84 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+@font-face {
+    font-family: Big;
+    src: url(./assets/fonts/Roboto-Regular.ttf) format("opentype");
+  }
+@font-face{
+  font-family: Boton;
+  src: url(./assets/fonts/TypeWritersSubstitute-Black.ttf) format("opentype");
+}  
+
+body{
+    background-image: url(./assets/images/home-office.jpg)   !important;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    margin: 0; 
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+.boton {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  -moz-box-shadow: 0px 0px 0px 2px #e02020;
+  -webkit-box-shadow: 0px 0px 0px 2px #e02020;
+  box-shadow: 0px 0px 0px 2px #e02020;
+  background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #f2f3f5), color-stop(1, #d39a0a) );
+  background:-moz-linear-gradient( center top, #1046eb 5%, #a17403 100% );
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfe0e3', endColorstr='#a17403');
+  background-color:#1243d6;
+  -webkit-border-top-left-radius:10px;
+  -moz-border-radius-topleft:10px;
+  border-top-left-radius:10px;
+  -webkit-border-top-right-radius:10px;
+  -moz-border-radius-topright:10px;
+  border-top-right-radius:10px;
+  -webkit-border-bottom-right-radius:10px;
+  -moz-border-radius-bottomright:10px;
+  border-bottom-right-radius:10px;
+  -webkit-border-bottom-left-radius:10px;
+  -moz-border-radius-bottomleft:10px;
+  border-bottom-left-radius:10px;
+text-indent:0;
+  border:1px solid #e6208a;
+  display:inline-block;
+  color:#ffffff;
+  font-family:Boton;
+  font-size:2em;
+  font-weight:bold;
+  font-style:normal;
+height:50px;
+  line-height:50px;
+width:150px;
+  text-decoration:none;
+  text-align:center;
+  text-shadow:0px 1px 0px #02050d;
+}
+.boton:hover {
+  background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #a17403), color-stop(1, #dfe0e3) );
+  background:-moz-linear-gradient( center top, #a17403 5%, #dfe0e3 100% );
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#a17403', endColorstr='#dfe0e3');
+  background-color:#a17403;
+}
+.boton:active {
+  position:relative;
+  top:1px;
+}
+
+.tituloComponente {
+  font-size: 1.8em !important;
+  text-decoration: underline;
+}
+
+.descripcion{
+  font-size: 1.3em !important;
+}
+
+.negrita{
+  font-weight: bold;
+}

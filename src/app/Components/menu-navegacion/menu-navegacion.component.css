@@ -1,0 +1,32 @@
+*{
+    font-family: 'Big';
+}
+
+.menuPadre{
+    background-image: radial-gradient(circle at 8.11% 34.75%, #9263cf 0, #574296 25%, #1f1f59 50%, #000022 75%, #000000 100%);
+    color: white;
+    box-shadow: 0 0 50px #0d1cf5; 
+  }
+    .nombre{
+        color: white;
+    }
+
+    .profesion{
+        font-size: small;
+    }
+
+    .links{
+        color: white !important;
+        font-size: 1.2em;
+        padding-left: 0.9em !important;
+        padding-right: 0.9em !important;
+    }    
+        .links:hover{
+            color: green !important;
+        }
+  
+
+    .enlaces{
+        margin-left: 10em;
+        float: left !important;
+    }

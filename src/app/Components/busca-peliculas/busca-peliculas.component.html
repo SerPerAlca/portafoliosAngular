@@ -1,0 +1,31 @@
+<h3 class="tituloComponente">Proyecto Mostrar Película</h3>
+<p class="descripcion">Otro uso de una <span class="negrita">API REST</span>.</p>
+<p class="descripcion">En este caso hago una llamada a la api 'omdb' para obtener los datos
+    de la película que introduzcamos en el siguiente formulario:</p> 
+<form>
+    <div class="form-group">
+        <div class="row">  
+            <label for="formGroupExampleInput" class="descripcion">Introduzca Título de Película: </label>
+        </div>    
+        <div class="row"> 
+            <input type="text" [(ngModel)]="movie" class="form-control pelicula" name="movie" placeholder="Título de Película">
+            <button class="btn boton btn-warning" (click)="buscar()">MOSTRAR</button>
+        </div>    
+        <div class="row" *ngIf="mostrar" >
+            <div>
+                <img [src]="portada">
+            </div>
+            <div col-md-2>
+                <p><label class="etiqueta">Titulo: </label>
+                    {{titulo}}</p>
+                    <p><label class="etiqueta">Genero: </label>
+                    {{genero}}</p>
+                    <p><label class="etiqueta">Director: </label>
+                    {{director}}</p>
+                    <p><label class="etiqueta">Actores: </label>
+                    {{actores}}</p> 
+            </div>
+         
+        </div>
+    </div>
+</form>

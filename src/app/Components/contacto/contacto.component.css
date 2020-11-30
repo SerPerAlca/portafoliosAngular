@@ -1,0 +1,33 @@
+.contacto{
+    background-color: rgb(53, 45, 45);
+    opacity: 0.9;
+    height: 100%;
+    color: white;
+    padding-left: 4em;
+    padding-top: 3em;
+}
+
+.apartado{
+    color: #9062CD;
+   
+}
+.titulo{
+    font-weight: bold;
+}
+.enlace{
+    color: white;
+    text-decoration: none;
+}
+.gracias{
+    font-size: 1.7em;
+    text-align: center;
+    font-weight: bolder;
+}
+.tituloGracias{
+    padding-bottom: 2em;
+}
+.nota{
+    font-size: 0.8em;
+    padding-top: 3em;
+    padding-right: 2em;
+}

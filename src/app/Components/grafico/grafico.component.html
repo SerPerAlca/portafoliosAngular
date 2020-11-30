@@ -1,0 +1,20 @@
+<div>
+    <h3 class="tituloComponente">Proyecto Mostrar Gráfico</h3>
+    <p class="descripcion">
+        Este proyecto se ha realizado usando la librería <span class="negrita">Chartjs </span>y la
+        api "openweather".
+    </p>
+    <p class="descripcion">
+        Realizo una llamada <span class="negrita">Rest a la API </span>y con los datos obtenidos 
+        genero este gráfico. 
+    </p>
+</div>    
+<h5 class="descripcion">Temperaturas:</h5>
+<div *ngIf="mostrar">
+    <canvas id="canvas" width="50" height="50">
+        
+    </canvas>
+</div>    
+        <button class="btn boton btn-warning" (click)="getClima()">MOSTRAR</button>
+    
+    
